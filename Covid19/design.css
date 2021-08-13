@@ -1,0 +1,16 @@
+#bg{
+    background-image: url('imgs/dd.png');
+    background-repeat: no-repeat;
+    background-position:6% 10%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#covi{
+    color: snow;
+    background-color:darkblue;
+    border-style: ridge;
+    border-radius: 4px;
+  /* border-style: dashed solid; */
+    border-width: 7px 12px;
+    border-color:skyblue;
+}

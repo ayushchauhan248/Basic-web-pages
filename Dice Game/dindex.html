@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class = "bg-gray-200">
+    <div class="border-8 border-black m-8 bg-white">
+        <h1 class = "text-6xl text-center bg-red-400 border-b-8 border-black">🎲 DICE GAME 🎲</h1>
+        <h2 class = "text-4xl text-center text-blue-800 pt-8 font-extrabold">CLICK ON ROLL TO PLAY</h2>
+        <div class="flex sm:block-flex px-64 pt-16 space-x-80 " >
+            <div >
+                <h3 class = "text-4xl text-center">Player : 1</h3>
+                <img class="h-80 w-80 pt-4" src="imgs/dice6.jpeg" alt="">
+            </div>
+            <div >
+                <h3 class = "text-4xl text-center">Player : 2</h3>
+                <img class="h-80 w-80 pt-4" src="imgs/dice6.jpeg" alt="">
+            </div>
+        </div>
+        <div class = "text-center pt-12 pb-8">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  border-4 border-black rounded" onclick="refreshPage()">
+                ROLL&#128070;
+            </button>
+        </div>
+    </div>
+    <script src="dice.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border:ridge;
+            border-width:10px;
+            border-color:crimson;
+            color:rgb(14, 14, 12);
+            background-image: url("baskimg/bask.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        }
+        #tab {
+            margin-left: 640px
+        }
+        #formid {
+            margin-left: 580px;
+            margin-bottom: 300px;
+            font-size: x-large;
+        }
+        #heading {  
+            color:rgb(56, 15, 204);
+        }
+    </style>
+</head>
+<body>
+    <span style='font-size:150px;' id="tab">&#127936;</span>
+    <h1 align = "center" id="heading" style="font-size:60px;">&#127936;BASKETBALL TOURNAMENT&#127936;</h1>
+    <h1 align = "center" style="color: rgb(9, 119, 24);">&nbsp;&nbsp;DUO VS DUO</h1>
+    <form id="formid">
+        <label for="f1name" >Player 1 name &nbsp;:  &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="Enter name"><br><br>
+        <label for="f1name">P1 Height &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="Enter height (e.g.  5'9')"><br>
+        <br>
+        <label for="f2name">Player 2 name&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="Enter name"><br><br>
+        <label for="f1name">P2 height &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="Enter height (e.g.  5'9')"><br>
+        <h5>Gender : </h5>
+        <input type="radio" >
+        <label for="male">Male&nbsp;</label>
+        <input type="radio" >
+        <label for="female">Female&nbsp;</label>
+        <h5>Best moves : </h5>
+        <input type="checkbox">
+        <label for="vehicle1">Shooting</label><br>
+        <input type="checkbox">
+        <label for="vehicle2">Dribbling</label><br>
+        <input type="checkbox">
+        <label for="vehicle3">Layup</label><br>
+        <input type="checkbox">
+        <label for="vehicle4">Defence</label><br>
+        <input type="checkbox">
+        <label for="vehicle1">Dunk</label><br><br>
+        <h5>Have you played on the level : </h5>
+        <label for="level">Choose yours  &nbsp; &nbsp; &nbsp;: &nbsp;&nbsp;&nbsp;</label>
+        <select id="lev" >
+            <option value="National">National</option>
+            <option value="State">State</option>
+            <option value="District">District</option>
+            <option value="School">School</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <label for="img">Upload your Photo &nbsp; &nbsp; &nbsp;: &nbsp;&nbsp;&nbsp;</label>
+        <input type="file" accept="image/*">
+        <br><br>
+        <input type="checkbox">
+        <label for="agree">  Confirm all the record </label>
+        <br><br>
+        <input style="margin-left: 100px;" type="submit" value="Submit">
+    </form>
+</body>
+</html>
